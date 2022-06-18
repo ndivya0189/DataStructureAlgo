@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="edge"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.DsAlgo.testCases.ArraysPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="practiceQnsPageLoadTest"/>
+          <include name="arraysAppsPageLoadTest"/>
+          <include name="arraysListPageLoadTest"/>
+          <include name="arraysBasicOpsPageLoadTest"/>
+          <include name="arraysListtryTest"/>
+          <include name="validatesrchArrayTest"/>
+          <include name="tearDown"/>
+          <include name="arraysBasicOpstryTest"/>
+          <include name="validateMaxConsecutivePageTest"/>
+          <include name="validateEvenPageTest"/>
+          <include name="arraysInPyPgtryTest"/>
+          <include name="arraysAppstryTest"/>
+          <include name="tryHerePageLoadTest"/>
+          <include name="arraysPageLoadTest"/>
+          <include name="arraysInPythonPageLoadTest"/>
+          <include name="validatesrtdArrayTest"/>
+        </methods>
+      </class> <!-- com.DsAlgo.testCases.ArraysPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
